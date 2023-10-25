@@ -1,0 +1,687 @@
+.box1{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000;
+    margin-bottom: 10px;
+}
+.rotate{
+    background-color: red;
+    color: #fff;
+    transform: rotate(180deg);
+}
+.rotate1{
+    background-color: green;
+    color: #fff;
+    transform: rotate(90deg);
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-top: 100px;
+    transform: scale(0.5,0.5);
+}
+.rotate3{
+    width: 400px;
+    height: 400px;
+    border: 2px solid #000;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-top: 100px;
+    transform: scale(-0.7,-0.7);
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000;
+    
+    margin-top: 100px;
+}
+.rotate4{
+    /*background-color: yellow;
+    margin-left: 100px;*/
+    transform: skewX(30deg);
+}
+.rotate5{
+   /* background-color: yellow;*/
+    transform: skewY(40deg);
+}
+/*
+.rotate6{
+   background-color: yellow;
+     transform: skewZ(30deg);
+}
+*/
+.box4{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    transition: width 3s,height 5s;
+
+}
+.box4:hover{
+    background-color: green;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+}
+.box5{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    transition: 3s,5s;
+    transition: 5s;
+}
+.box5:hover{
+    background-color: green;
+    color: #fff;
+    wi  dth: 200px;
+    height: 200px;
+}
+.box6{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+   background-color: green;
+   position: relative;
+   animation-name:testA ;
+   animation-duration: 5s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-delay: 3s;
+   animation-fill-mode: forwards;
+   animation-direction: alternate;
+
+}
+@keyframes testA{
+    0%{
+        background-color: red;
+        left: 0;
+        top: 0;
+    }
+    25%{
+        background-color: blue;
+        left: 100px;
+        top: 0;
+    }
+    50%{
+        background-color: yellow;
+        left: 100px;
+        top: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
